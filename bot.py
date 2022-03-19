@@ -19,7 +19,7 @@ DL_BUTTONS=[
         InlineKeyboardButton('بدون علامه مائية', callback_data='nowm'),
         
     ],
-    [InlineKeyboardButton('**مقطع صوتي**', callback_data='audio')],
+    [InlineKeyboardButton('مقطع صوتي', callback_data='audio')],
 ]
 
 
