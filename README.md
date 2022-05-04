@@ -30,10 +30,9 @@
 بعد انتهاء المده اصنع حساب هيروكو اخرى ونصب ثانية 
 ```
 
-## قناه سورس كود البوت:
+## المطور:
 
-[![القناه](https://img.shields.io/badge/TG-Channel-30302f?style=flat&logo=telegram)](https://t.me/jmthon)
-[![الكروب](https://img.shields.io/badge/TG-Group-30302f?style=flat&logo=telegram)](https://t.me/GROUPJmthon)
+[![DEV](https://img.shields.io/badge/TG-Channel-30302f?style=flat&logo=telegram)](https://t.me/K_8_U)
 
 
 #### LICENSE
