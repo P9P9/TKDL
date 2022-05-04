@@ -32,7 +32,7 @@
 
 ## المطور:
 
-[![DEV](https://img.shields.io/badge/TG-Channel-30302f?style=flat&logo=telegram)](https://t.me/K_8_U)
+[![DEV](https://img.shields.io/badge/TG-DEV-30302f?style=flat&logo=telegram)](https://t.me/K_8_U)
 
 
 #### LICENSE
