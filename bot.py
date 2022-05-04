@@ -10,13 +10,13 @@ downloads = './downloads/{}/'
 
 START_BUTTONS=[
     [
-        InlineKeyboardButton('_المطور_', url='https://t.me/K_8_U'),
+        InlineKeyboardButton('المطور', url='https://t.me/K_8_U'),
     ],]
 
 DL_BUTTONS=[
     [
-        InlineKeyboardButton('**تنزيل فيديو**', callback_data='nowm'),
-        InlineKeyboardButton('**مقطع صوتي**', callback_data='audio'),
+        InlineKeyboardButton('تنزيل فيديو', callback_data='nowm'),
+        InlineKeyboardButton('مقطع صوتي', callback_data='audio'),
 ],]
 
 
