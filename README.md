@@ -1,4 +1,4 @@
-## TikTok JmThon
+## TikTok Downloader
 ---
 
 بوت تيليجرام لتحميل الفيديوهات من التيك توك
@@ -11,13 +11,11 @@
 
 • توكن البوت
 
-[![التنصيب عبر هيروكو](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/JMTHON-AR/TikTok)
+[![التنصيب عبر هيروكو](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/P9p9/TKDL)
 
 #### المميزات:
 
 • تحميل الفيديوهات بدون علامه مائية
-
-• تحميل الفيديوهات مع علامه مائية
 
 • تحميل المقاطع الصوتية
 
