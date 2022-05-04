@@ -10,14 +10,13 @@ downloads = './downloads/{}/'
 
 START_BUTTONS=[
     [
-        InlineKeyboardButton('السورس', url='https://github.com/JMTHON-AR/TikTok'),
-        InlineKeyboardButton('قناة البوتات', url='https://t.me/jmthon'),
+        InlineKeyboardButton('السورس', url='https://github.com/P9P9/TKDL'),
+        InlineKeyboardButton('المطور', url='https://t.me/K_8_U'),
     ],]
 
 DL_BUTTONS=[
     [
-        InlineKeyboardButton('بدون علامه مائية', callback_data='nowm'),
-        InlineKeyboardButton('علامة مائية', callback_data='wm'),
+        InlineKeyboardButton('تنزيل فيديو', callback_data='nowm'),
     ],
     [InlineKeyboardButton('مقطع صوتي', callback_data='audio')],
 ]
