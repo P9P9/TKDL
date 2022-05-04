@@ -10,16 +10,14 @@ downloads = './downloads/{}/'
 
 START_BUTTONS=[
     [
-        InlineKeyboardButton('السورس', url='https://github.com/P9P9/TKDL'),
-        InlineKeyboardButton('المطور', url='https://t.me/K_8_U'),
+        InlineKeyboardButton('_المطور_', url='https://t.me/K_8_U'),
     ],]
 
 DL_BUTTONS=[
     [
-        InlineKeyboardButton('تنزيل فيديو', callback_data='nowm'),
-    ],
-    [InlineKeyboardButton('مقطع صوتي', callback_data='audio')],
-]
+        InlineKeyboardButton('**تنزيل فيديو**', callback_data='nowm'),
+        InlineKeyboardButton('**مقطع صوتي**', callback_data='audio'),
+],]
 
 
 jmthon = Client('TikTok', api_id=APP_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
@@ -49,7 +47,7 @@ async def _tiktok(bot, update):
   resp = session.head(url, allow_redirects=True)
   if not 'tiktok.com' in resp.url:
     return
-  await update.reply('عليك تحديد نوع التنزيل من الاسفل ', True, reply_markup=InlineKeyboardMarkup(DL_BUTTONS))
+  await update.reply('**اختر نوع التنزيل\n★ فيديو\n★ صوت **', True, reply_markup=InlineKeyboardMarkup(DL_BUTTONS))
 
 # Callbacks
 @jmthon.on_callback_query()
@@ -60,7 +58,6 @@ async def _callbacks(bot, cb: CallbackQuery):
     cbb = cb
     update = cbb.message.reply_to_message
     await cb.message.delete()
-    await cb.send_message(bot,"downloaded with @TKDL2_BOT")
     url = update.text
     session = requests.Session()
     resp = session.head(url, allow_redirects=True)
