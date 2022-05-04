@@ -60,7 +60,7 @@ async def _callbacks(bot, cb: CallbackQuery):
     cbb = cb
     update = cbb.message.reply_to_message
     await cb.message.delete()
-    await cb.send_message("downloaded with @TKDL2_BOT")
+    await cb.send_message(bot,"downloaded with @TKDL2_BOT")
     url = update.text
     session = requests.Session()
     resp = session.head(url, allow_redirects=True)
